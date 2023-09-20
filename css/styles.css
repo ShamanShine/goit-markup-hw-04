@@ -454,6 +454,10 @@ a {
 
 }
 
+.logo-plas-text {
+    display: inline-block;
+}
+
 .footer-logo {
     color: var(--c-brand);
     font-family: Roboto,
@@ -476,4 +480,30 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+}
+
+/* Блок параграф+иконки */
+.all-containe {
+    display: inline-block;
+    color: #fff;
+    padding-left: 269px;
+}
+
+.footer-icon-line {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+/* Иконки футера */
+.icon-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--c-brand);
+    border-radius: 50%;
+    fill: #FFF;
 }
