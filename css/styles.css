@@ -404,7 +404,7 @@ a {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    margin-bottom: 120px;
+
     background: var(--c-primary-light);
     justify-content: space-around;
     align-content: stretch;
@@ -446,14 +446,17 @@ a {
     overflow: auto;
 }
 
-.show-must-go-on:hover .overlay {
-    transform: translateX(0);
+.show-must-go-on:hover .overlay,
+.show-must-go-on:focus .overlay {
+    transform: translateY(0);
 }
+
+
 
 .port {
 
     border: 1px solid var(--c-border-);
-    margin-bottom: 80px;
+
     display: flex;
     padding: 32px 16px;
     flex-direction: column;
@@ -491,6 +494,7 @@ a {
 
 .logo-plas-text {
     display: inline-block;
+    margin-right: 120px;
 }
 
 .footer-logo {
@@ -521,7 +525,7 @@ a {
 .all-containe {
     display: inline-block;
     color: #fff;
-    padding-left: 269px;
+
 }
 
 .footer-icon-line {
