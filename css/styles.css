@@ -5,6 +5,7 @@
     --c-background: #2E2F42;
     --c-background-light: #f4f4fd;
     --c-border-: #E7E9FC;
+    --c-action-hover: #404BBF;
 
 }
 
@@ -121,22 +122,25 @@ span.logo {
     display: inline-block;
     position: relative;
 
+
 }
 
 .nav-link::after {
     content: "";
-    width: 48px;
+
     height: 4px;
 
     display: block;
     transform: translate(0, 20px);
     color: var(--c-brand);
     border-radius: 2px;
+
 }
 
 .nav-link:hover::after {
     transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
     background-color: var(--c-brand);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 
 }
 
@@ -146,12 +150,16 @@ span.logo {
 .nav-link:hover {
     color: #404bbf;
     transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
 
 .nav-link:focus {
     color: #404bbf;
     transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
 
 
 .address-link:hover {
@@ -376,7 +384,14 @@ a {
     background-color: var(--c-brand);
     border-radius: 50%;
     fill: #FFF;
+}
 
+.icon-line:hover {
+    background-color: var(--c-action-hover);
+}
+
+.icon-line:focus {
+    background-color: var(--c-action-hover);
 }
 
 /*Fourth section (Portfolio)*/
@@ -545,4 +560,12 @@ a {
     background-color: var(--c-brand);
     border-radius: 50%;
     fill: #FFF;
+}
+
+.icon-footer:hover {
+    background-color: #31D0AA;
+}
+
+.icon-footer:focus {
+    background-color: #31D0AA;
 }
