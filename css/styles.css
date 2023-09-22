@@ -87,7 +87,7 @@ button {
 
 .navigation-list {
     padding: 24px 0;
-    color: #404bbf;
+    color: #2E2F42;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -124,8 +124,8 @@ span.logo {
 
     padding: 24px 0;
 
-    color: #2E2F42;
 
+    color: #404bbf;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -644,5 +644,6 @@ a {
 
 .tools-footer {
     display: flex;
+    align-items: baseline;
 
 }
