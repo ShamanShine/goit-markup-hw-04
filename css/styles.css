@@ -505,6 +505,10 @@ a {
 
 /*Footer*/
 .footer {
+    display: flex;
+    align-items: baseline;
+
+
     background-color: var(--c-primary);
     padding: 100px 0;
 
