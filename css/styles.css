@@ -375,6 +375,7 @@ a {
     align-items: center;
     justify-content: center;
     gap: 24px;
+    fill: #FFF;
 
 }
 
@@ -395,6 +396,11 @@ a {
 
 .icon-line:focus {
     background-color: var(--c-action-hover);
+}
+
+.link-xz {
+    fill: #FFF;
+
 }
 
 /*Fourth section (Portfolio)*/
@@ -555,6 +561,7 @@ a {
     justify-content: center;
     gap: 16px;
     margin-top: 16px;
+
 }
 
 /* Иконки футера */
@@ -582,4 +589,8 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
+}
+
+.footer-social-netwoks {
+    fill: var(--c-background-light);
 }
