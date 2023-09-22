@@ -566,7 +566,7 @@ a {
     height: 40px;
     background-color: var(--c-brand);
     border-radius: 50%;
-    fill: #FFF;
+    fill: var(--c-background-light);
 }
 
 .icon-footer:hover {
